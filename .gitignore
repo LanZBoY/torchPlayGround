@@ -1,7 +1,7 @@
 # 濾掉不必要的資料集避免資料量太大
 basic_dataset/
 kaggle/dataset/
-pytorch/
+torchEnv/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
