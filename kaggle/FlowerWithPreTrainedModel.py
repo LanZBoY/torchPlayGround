@@ -1,6 +1,6 @@
 import torch
 from torchvision.models import resnet50, ResNet50_Weights
-from kaggle.dataset.dataUtils import FlowerDataset
+from dataset.dataUtils import FlowerDataset
 from torch.utils.data import DataLoader
 from torchvision.transforms import Resize, ToTensor, Normalize, Compose
 from tqdm import tqdm
@@ -34,7 +34,7 @@ def test_step(model, dataloader):
 DEVICE = 'cuda' if torch.cuda.is_available() else "cpu"
 EPOCH = 20
 BATCH_SIZE = 32
-ROOT_PATH = './dataset/flowers_/'
+ROOT_PATH = './kaggle/dataset/flowers_'
 mean = [0.485, 0.456, 0.406]
 std = [0.229, 0.224, 0.225]
 
