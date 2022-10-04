@@ -9,3 +9,6 @@ def removeWord(removeWordList: list, sentence : list):
     for removeWord in removeWordList:
         sentence = list(filter(removeWord.__ne__,sentence))
     return sentence
+
+def PPMI():
+    pass
