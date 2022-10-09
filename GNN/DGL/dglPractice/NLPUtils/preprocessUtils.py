@@ -11,5 +11,5 @@ def removeWord(removeWordList: list, sentence : str):
         sentence = list(filter(removeWord.__ne__,sentence))
     return ' '.join(sentence)
 
-def PPMI():
-    pass
+# def PPMI():
+#     pass
