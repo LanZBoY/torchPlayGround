@@ -4,6 +4,7 @@ kaggle/dataset/
 torchEnv/
 trained_models/
 NLP/MLTCDataset/
+medic/*.npy
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
