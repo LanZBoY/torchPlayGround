@@ -4,6 +4,9 @@ kaggle/dataset/
 torchEnv/
 trained_models/
 NLP/MLTCDataset/
+NLP/SLTCDataset/*/*.txt
+NLP/SLTCDataset/ohsumed_single_23/
+NLP/SLTCDataset/RawData/
 medic/*.npy
 # Byte-compiled / optimized / DLL files
 __pycache__/

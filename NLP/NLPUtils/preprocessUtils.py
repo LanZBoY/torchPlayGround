@@ -1,5 +1,3 @@
-import os
-from typing import Iterable
 import string
 
 def removePunctuation(sentence : str):
