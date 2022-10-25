@@ -1,5 +1,5 @@
 class Vocabulary():
-    def __init__(self, TOKENS:dict() = {}, MAXLEN = None) -> None:
+    def __init__(self, TOKENS : dict() = {}, MAXLEN = None) -> None:
         self.num_words = len(TOKENS)
         self.word2idx = TOKENS
         self.idx2word = {idx: word for word, idx in self.word2idx.items()}
