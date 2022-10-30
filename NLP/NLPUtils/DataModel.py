@@ -15,10 +15,12 @@ class Vocabulary():
     def addSentence(self, sentence):
         for word in sentence.split()[:self.MAXLEN]:
             self.addWord(word)
+        return sentence.split()[:self.MAXLEN]
             
     def addWordList(self, wordList):
         for word in wordList[:self.MAXLEN]:
             self.addWord(word)
+        return wordList[:self.MAXLEN]
 
     def has(self, word):
         return word in self.word2idx

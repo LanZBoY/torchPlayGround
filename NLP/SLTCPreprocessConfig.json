@@ -1,6 +1,6 @@
 {
     "Dataset":"mr",
-    "MAXLEN": 30,
+    "MAXLEN": 15,
     "TOKEN":{
         "<UNK>" : 0
     }
