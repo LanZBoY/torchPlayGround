@@ -3,6 +3,7 @@ basic_dataset/
 kaggle/dataset/
 torchEnv/
 trained_models/
+NLP/NLPUtils/pretrain
 NLP/MLTCDataset/
 NLP/SLTCDataset/RawData/
 medic/*.npy
