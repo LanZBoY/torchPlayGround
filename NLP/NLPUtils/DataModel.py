@@ -13,9 +13,10 @@ class Vocabulary():
             self.num_words += 1
 
     def addSentence(self, sentence):
-        for word in sentence.split()[:self.MAXLEN]:
+        sent_list = sentence.split()[:self.MAXLEN]
+        for word in sent_list:
             self.addWord(word)
-        return sentence.split()[:self.MAXLEN]
+        return sent_list
             
     def addWordList(self, wordList):
         for word in wordList[:self.MAXLEN]:
