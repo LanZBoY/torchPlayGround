@@ -1,10 +1,5 @@
-# torchPlayGround
+# TorchPlayGround
+這個專案是給想學pytorch套件的學生使用的，學習前希望已經具備以下知識
 
-這個專案是給想學pytorch的人建立起來的專案，很多基本教學都在跟目錄中
-可以將這個專案fork下來後執行。
-
-## 在執行前請先輸入以下指令
-```cmd=
-pip install -r requirement.txt
-```
-用來安裝這個專案所有會用到的套件。
+- python 基礎語法(如迴圈、條件式等)
+- numpy的基礎知識(矩陣運算、Axis概念以及換Axis概念)

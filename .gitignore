@@ -1,4 +1,5 @@
 # 濾掉不必要的資料集避免資料量太大
+TurtorialEnv/
 basic_dataset/
 kaggle/dataset/
 torchEnv/
