@@ -8,6 +8,8 @@ NLP/NLPUtils/pretrain
 NLP/MLTCDataset/
 NLP/SLTCDataset/RawData/
 medic/*.npy
+# vscode config
+.vscode
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
